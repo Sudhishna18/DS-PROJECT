@@ -177,8 +177,50 @@ plt.ylabel("Sales")
 plt.grid(True)
 plt.show()
 ```
-<img width="1010" height="556" alt="image" src="https://github.com/user-attachments/assets/1e742775-b5b8-419d-ae74-a958e4514d92" />
+<img width="1010" height="556" alt="image" src="https://github.com/user-attachments/assets/1e742775-b5b8-419d-ae74-a958e4514d92" />   
 
+## Exploratory Data Analysis Performed:
+
+* Removed duplicate records
+* Filled missing values using mode (categorical) and median (numerical)
+* Corrected unrealistic values (example: speed limit capped at 150)
+* Converted datatypes for model compatibility
+* Reset index and saved cleaned dataset
+* Generated descriptive statistics and dataset summary
+* Created visualizations such as:
+* Histograms for numerical features
+* Count plots for categorical features
+* Correlation heatmap
+* Pairplots to observe relationships between key features
+* Analysis of accident severity and accident counts
+
+## Key Findings:
+
+December recorded the highest sales, indicating strong seasonal demand.
+
+Phones and Laptops were the top-selling products, contributing the most revenue.
+
+Evening hours (6 PM–9 PM) showed the highest purchase activity.
+
+San Francisco and Los Angeles generated the highest city-wise revenue.
+
+Strong positive correlation was found between Quantity Ordered, Price Each, and Sales, proving them important predictors.
+
+## Future Work:
+
+Apply Machine Learning models to predict future sales.
+
+Build an interactive dashboard using Power BI or Tableau for real-time insights.
+
+Perform customer segmentation using clustering techniques.
+
+Improve feature engineering by adding seasonality, festivals, and marketing data.
+
+Deploy the project as a web application for business use.
+
+## Conclusion:
+
+This project successfully cleaned, analyzed, and visualized the sales dataset to uncover meaningful business insights. Key trends such as peak sales months, top-performing products, and city-wise revenue patterns were identified. The analysis provides a strong foundation for data-driven decision-making and opens pathways for predictive analytics and advanced modeling in the future.
 
 
 
